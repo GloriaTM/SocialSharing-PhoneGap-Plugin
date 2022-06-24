@@ -1,4 +1,4 @@
-# PhoneGap / Cordova Social Sharing plugin
+# Fork of EddyVerbruggen/SocialSharing-PhoneGap-Plugin
 
 [![NPM version][npm-image]][npm-url]
 [![Downloads][downloads-image]][npm-url]
