@@ -29,6 +29,7 @@ Every now and then kind folks ask me how they can give me all their money. So if
 8. [Whitelisting on iOS](#8-whitelisting-on-ios)
 9. [NSPhotoLibraryUsageDescription on iOS](#9-nsphotolibraryusagedescription-on-ios)
 10. [Import Types into an Ionic Angular Project](#10-import-types-into-an-ionic-angular-project)
+11. [Changes after forking](#11-changes-after-forking)
 
 ## 1. Description
 
@@ -563,3 +564,14 @@ Add this reference into your typings file definition:
 ```
 /// <reference path="../node_modules/cordova-plugin-x-socialsharing/types/index.d.ts" />
 ```
+
+## 11. Changes after forking
+
+### Android 12: 
+App crashes on android 12 when sharing
+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues/1176
+
+## API Level 31
+Apps build for Android 12/API Level 31 need exports on the intent-filter
+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/pull/1158
+
